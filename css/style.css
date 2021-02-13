@@ -1,0 +1,241 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.header{
+    text-align: center;
+    padding-top: 4%;
+    align-items: center;
+}
+
+.btnOpen {
+    background-color: #019C86;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.material-icons{
+    position: relative;
+}
+
+.chatBox {
+    /* background-color: white; */
+    background: rgb(0,122,105);
+    background: linear-gradient(180deg, rgba(0,122,105,1) 16%, rgba(0,0,0,1) 46%, rgba(255,255,255,1) 46%);    
+    height: 623px;
+    width: 365px;
+    display: display;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    border: none;
+    z-index: 9;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 15px 0px, rgb(0 0 0 / 10%) 0px 1px 2px 0px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.container-box{
+    position: absolute;
+    margin-top: -80px;
+}
+
+.header-chatbox{
+    padding: 25px 40px 70px 40px;
+    /* background: rgb(0,122,105);
+    background: linear-gradient(90deg, rgba(0,122,105,1) 34%, rgba(0,77,66,1) 100%); */
+}
+
+.titulo-chatbox{
+    color: white;
+}
+
+.text-chatbox{
+    color: #81b4ae;
+    line-height: 1.5rem;
+}
+
+.section_msjs{
+    padding: 5px 20px 20px 20px;
+    display: flex;
+}
+.imagen-container{
+    margin-right: 10px;
+}
+
+.image{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: middle !important;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.uno{
+    /* margin-left: 10px; */
+    background-color: cornflowerblue !important;
+}
+.dos{
+    margin-left: 20px;
+    background-color: crimson !important;
+}
+.tres{
+    margin-left: 45px;   
+    background-color: rgb(42, 173, 53) !important;
+
+}
+
+
+.card{
+    background-color: white;
+    border-top: 1px solid #019C86;
+    margin: 15px;
+    /* padding: 20px; */
+    border-radius: 3px;
+    border-top: 1px solid #ebebeb;
+    line-height: 1.3em;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 15px 0px, rgb(0 0 0 / 10%) 0px 1px 2px 0px, rgb(1 156 134 / 50%) 0px 2px 0px 0px inset;
+}
+
+.text-gray{
+    color: #9e9e9e;
+    font-size: 14px;
+}
+
+.header-card{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px;
+    padding: 20px;
+}
+
+.separator{
+    height: 1px;
+    width: 100%;
+    background-color: #ebebeb;
+    margin: 15px 0px;
+}
+
+.link-card{
+    font-size: 14px;
+    color: #9e9e9e;
+    background-color: white;
+    padding: 20px !important;
+    border-top: 1px solid #ebebeb;
+    cursor: pointer;
+}
+
+.titulo{
+    color: #019C86 !important;
+}
+
+.link-card:hover{
+    background-color: #fafafa;
+}
+
+.action-card{
+    border-top: 1px solid #ebebeb;
+    padding:20px;
+    align-items: center !important;
+    text-align: center;
+}
+
+.btn-large{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 14px;
+    background-color: #019C86;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-round{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 25px;
+    font-size: 14px !important;
+    background-color: #019C86;
+    border-radius: 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.btn-round:hover{
+    background-color: #076355;
+}
+
+.btn-large:hover{
+    background-color: #076355;
+}
+
+.btnOpen:hover{
+    background-color: #076355;
+}
+
+
+span.left{
+    margin-right: 5px;
+    vertical-align: middle !important;
+}
+
+.btn-cerrar{
+    position: fixed;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    right: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 100;
+}
+
+.btn-cerrar:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    /* opacity: 0.3; */
+}
+
+
+.btn-regresar{
+    position: absolute;
+    color: white;
+    padding: 15px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.chat{
+    display: none;
+}
+
+.msj{
+    background-color: #9dd4cd;
+    color: #076355;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.msj:hover{
+    background-color:  #61b8ac;
+}
+
+.mensajes{
+    text-align: right;
+    margin-top: 10px;
+    padding: 2%;
+}

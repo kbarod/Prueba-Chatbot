@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<div class="header" sty}>
+  <h2>Prueba de ChatBot - Karolina Barrera</h2>
+  <p>Presiona en el botón de abajo para abrir el chat bot</p>
+  <br>
+  <a class="btnOpen" onclick="abrirChatBox()"><span class="left material-icons">message</span> Chat</a>
+</div>
+
+
+<div class="chatBox" id="Chatbot" onscroll="scrollBtn()">
+  <div class="btn-cerrar" id="cerrar" onclick="cerrarChatBox()">
+    <span class="material-icons">close</span>
+  </div>
+  <div class="inicio_chat" id="inicio">
+    <div class="header-chatbox">
+      <h2 class="titulo-chatbox">Hola! 👋</h2>
+      <p class="text-chatbox">Ofrecemos ayuda en vivo entre semana de 9 a 5. Preguntanos cualquier cosa sobre tu solicitud CalFresh. Respondemos durante horario de oficina. Déjenos su email.</p>
+    </div>
+    <div class="container-box"> 
+      <div class="card">
+        <div class="header-card">
+          Iniciar una conversación
+        </div>
+        <div class="section_msjs">
+          <div class="imagen-container" style="flex: 40%;">
+            <div class="image uno">K</div>
+            <div class="image dos">M</div>
+            <div class="image tres">A</div>
+          </div>
+          <div style="flex: 60%;">
+            <div class="text-gray">Nuestro tiempo de respuesta habitual</div>
+            <div style="display: flex; align-items: center;">
+                <span style="color: #7FCDC2; font-size: 18px; font-weight: bold;"  class="left material-icons">access_time</span>
+                <span  style="font-size: 12px; font-weight: bold; margin-left: 2x;">Menos de 2 horas</span>
+            </div>
+          </div>
+        </div>
+        <div class="action-card">
+          <a class="btn-round" onclick="mostrarChat()">
+            <span class="material-icons left">send</span>
+            Envíanos un mensaje
+          </a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="header-card">
+          Disaster CalFresh is available
+        </div> 
+        <a href="#" style="text-decoration: none !important;">
+          <div class="link-card">
+            <div class="titulo">Are you affected by the wildfires?</div>
+            <div>If your are affected by the California wilfires, you can apply to receive Disaste benefits.</div>
+          </div>
+        </a>
+        <div class="action-card">
+          <a class="btn-large" href="">Apply for Disaster CalFresh</a>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="header-card">
+          Disaster CalFresh is available
+        </div> 
+        <a href="#" style="text-decoration: none !important;">
+          <div class="link-card">
+            <div class="titulo">Are you affected by the wildfires?</div>
+            <div>If your are affected by the California wilfires, you can apply to receive Disaste benefits.</div>
+          </div>
+        </a>
+  
+        <a href="#" style="text-decoration: none !important;">
+          <div class="link-card">
+            <div class="titulo">Are you affected by the wildfires?</div>
+            <div>If your are affected by the California wilfires, you can apply to receive Disaste benefits.</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="chat">
+    <div class="btn-regresar" onclick="regresar()">
+      <span class="material-icons">keyboard_backspace</span>
+    </div>
+    <div class="header-chatbox">
+      <h2 class="titulo-chatbox">Chat</h2>
+      <p class="text-chatbox">Ofrecemos ayuda en vivo entre semana de 9 a 5. Preguntanos cualquier cosa sobre tu solicitud CalFresh. Respondemos durante horario de oficina. Déjenos su email.</p>
+    </div>
+    <div class="container-chat" style="align-items: right;">
+      <div class="mensajes">
+        <span class="msj">Hola, ¿Tengo una duda?</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
